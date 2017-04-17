@@ -25,7 +25,9 @@ SECRET_KEY = '^-tkw9j!cuzedj(09d6yjl2be4n8(5^^4f*_f=rkhqcx0=7^6k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django.wiseeyesent.com',
+]
 
 
 # Application definition
