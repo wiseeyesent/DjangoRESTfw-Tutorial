@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'django.wiseeyesent.com',
+    'localhost',
+    '127.0.0.1'
 ]
 
 
