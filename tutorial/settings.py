@@ -124,3 +124,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# http://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/
+# Adding pagination
+
+REST_FRAMEWORK = {
+        'PAGE_SIZE': 10
+}
